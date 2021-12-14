@@ -1,0 +1,550 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+body{
+    height:100%;
+    width:100%;
+    background-image: url(./images/topography.svg), linear-gradient(110deg, #f93d66, #6d47d9);
+    
+    /* background: #FEAC5E;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+}
+h1{
+    font-size: 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navbar li {
+    list-style-type: none;
+    padding:20px 40px;
+}
+.navbar li a{
+    background-color:#ffc600 ;
+    font-size:23px;
+    padding:15px 15px;
+    font-weight:bold;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-decoration: none;
+    color:black;
+}
+/* section */
+.top-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.row1{
+    height:40vh;
+    width:100%;
+  
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.h1{
+    background: url(BACKGROUND.jpg) no-repeat center center/cover;
+      border-radius: 7px; 
+    height: 30vh;
+    width:60%; 
+    margin:5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h11{
+    background: #ffc600;
+    padding:10px 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+.h12{
+    margin-top: 8px;
+    background: #ffc600;
+    padding:10px 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+.h2{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height:40vh;
+    width:22%;
+    justify-content: center;
+    align-items: center;
+}
+.h13
+{
+   
+   font-size: 20px;
+   font-weight: bold;
+   background: #ffc600;
+   margin:10px;
+   padding:7px 7px;
+   
+}
+.h3
+    {
+        
+        font-size: 20px;
+        font-weight: bold;
+        background:#ffc600 ;
+        padding:7px 20px;
+        margin:5px;       
+     } 
+     .h3 h1,h2{
+        font-family: 'Baloo Bhai 2', cursive;
+     }
+/* row2 start here */
+.row2{
+    height: 61vh;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container1{
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img1 img{
+    display: block;
+    
+    width:250px ;
+    margin-top:2px;
+    height:160px;
+}
+.box-1{
+    background-color: white;
+    border-radius: 7px;
+    width:21%;
+    height:61vh; 
+    transition: all 1s ease-in-out 0s;  
+}
+.box-1:hover{
+    background-color: wheat;
+    border-radius: 7px;
+    transform:scale(1.1);  
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img1 img{
+    display: block;
+    width:250px ;
+    height:160px;
+    border-radius: 10px;
+    margin-top: 6px;
+}
+
+.box-2{
+    background-color: white;
+    border-radius: 7px;
+    width:21%;
+    height:61vh;
+    transition: all 1s ease-in-out 0s;  
+   
+}
+.box-2:hover{
+    background-color: wheat;
+    border-radius: 7px;
+   
+    transform:scale(1.1);   
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img1 img{
+    display: block;
+    width:250px ;
+    height:160px;
+}
+.box-3{
+    border-radius: 7px;
+    background-color:white;
+    width:21%;
+    height:61vh; 
+    transition: all 1s ease-in-out 0s; 
+   
+}
+.box-3:hover{
+    background-color: wheat;
+    border-radius: 7px;
+    transform:scale(1.1);    
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img1 img{
+    display: block;
+    width:250px ;
+    height:160px;
+}
+.box-4{
+    border-radius: 7px;
+    background-color:white;
+    width:21%;
+    height:61vh;
+    transition: all 1s ease-in-out 0s; 
+
+}
+.box-4:hover{
+    background-color: wheat;
+    border-radius: 7px;
+    transform:scale(1.1);    
+}
+.h21 h1{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.h22 h1{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.h23 h1{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.h24 h1{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.para21{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.para22{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+   
+    text-align: center;
+    font-weight: bold;
+}
+.para23{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+    text-align: center;
+    font-weight: bold;
+}
+.para24{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+   
+    text-align: center;
+    font-weight: bold;
+}
+/* row3 */
+.row3{
+    height:62vh;
+    width:82%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top:20px;
+    margin-left:180px;  
+}
+ .com{
+    
+     height:60vh;
+     width:50%
+ }
+ .com .burger img{
+    width:100%;
+    height:60vh;
+    border-radius:10px;
+    transition: all 1s ease-in-out 0s;
+ }
+ .com .burger img:hover{
+    transform:scale(1.1);
+    border-radius:10px;
+ }
+ .com1{
+    border: 4px solid white;
+    height:60vh;
+    width:40%;
+    border-radius:10px;
+    transition: all 1s ease-in-out 0s;
+}
+.com1:hover{
+    border: 4px solid white;
+    transform:scale(1.1);
+    border-radius:10px;   
+}
+
+.com1 .featured h3{
+    text-align: center;
+    background-color: white;
+    /* padding:20px 18px; */
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border:4px solid white;
+    
+    font-size:22px;
+        
+       
+}
+.com1 .featured h2{
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: white;
+    /* padding-top:px; */
+    font-weight: bold;
+}
+/* logo start here */
+.logo h1{
+    text-align: center;
+    margin-top:30px;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: #ffc600;
+    transition: all 1s ease-in-out 0s;
+}
+.logo h1:hover{
+    text-align: center;
+    margin-top:30px;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: yellow;
+    color:red;
+}
+
+.sponsor{
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.item-1{
+    width:200px;
+    height:200px;
+    transition: all 1s ease-in-out 0s;
+}
+.sponsor  a{
+    text-decoration: none;
+    font-size:20px;
+    font-weight: bold;
+    color:coral;
+    background-color: cyan;
+    border-radius:4px;
+    font-family: 'Baloo Bhai 2', cursive;
+    transition: all 1s ease-in-out 0s;
+
+}
+.sponsor  a:hover{
+    text-decoration: none;
+    font-size:20px;
+    font-weight: bold;
+    color:black;
+    background-color: cornsilk;
+    border-radius:4px;
+    font-family: 'Baloo Bhai 2', cursive;
+   
+    
+
+}
+.sponsor1  a{
+    text-decoration: none;
+    font-size:20px;
+    font-weight: bold;
+    color:coral;
+    background-color: cyan;
+    border-radius:4px;
+    font-family: 'Baloo Bhai 2', cursive;
+    transition: all 1s ease-in-out 0s;
+   
+
+}
+.sponsor1  a:hover{
+    text-decoration: none;
+    font-size:20px;
+    font-weight: bold;
+    color:black;
+    background-color: cornsilk;
+    border-radius:4px;
+    font-family: 'Baloo Bhai 2', cursive;
+   
+
+}
+.item-1 img{
+    display: block;
+    width:200px;
+    height:200px;
+    transition:all 1s ease-in-out 0s;
+}
+.item-1 img:hover{
+    display: block;
+    transform:scale(1.1);
+   
+    
+}
+.item-2{
+    width:200px;
+    height:200px; 
+}
+.item-2 img{
+    display: block;
+    width:200px;
+    height:200px;
+    transition:all 1s ease-in-out 0s;
+}
+.item-2 img:hover{
+    display: block;
+   
+    transform:scale(1.1);
+    
+}
+.item-3{
+    width:200px;
+    height:200px;
+    
+ ;
+}
+.item-3 img{
+    display: block;
+    width:200px;
+    height:200px;
+    transition:all 1s ease-in-out 0s;
+}
+.item-3 img:hover{
+    display: block;
+  
+    transform:scale(1.1);
+    
+}
+.item-4{
+    width:200px;
+    height:200px;       
+}
+.item-4 img{
+    display: block;
+    width:200px;
+    height:200px;
+    transition:all 1s ease-in-out 0s;
+}
+.item-4 img:hover{
+    display: block;
+    
+    transform:scale(1.1);
+    
+}
+.sponsor1{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+
+}
+.item-5{
+    width:200px;
+    height:200px;
+   
+   
+}
+.item-5 img{
+    display: block;
+    width:200px;
+    height:200px;
+    transition:all 1s ease-in-out 0s;
+}
+.item-5 img:hover{
+    display: block;
+   
+    transform:scale(1.1);
+    
+}
+.item-6{
+    width:200px;
+    height:200px;
+    
+   
+}
+.item-6 img{
+    display: block;
+    width:200px;
+    height:200px;
+    transition:all 1s ease-in-out 0s;
+}
+.item-6 img:hover{
+    display: block;
+    
+    transform:scale(1.1);
+    
+}
+.item-7{
+    width:200px;
+    height:200px;
+  
+}
+.item-7 img{
+    display: block;
+    width:200px;
+    height:200px;
+    transition:all 1s ease-in-out 0s;
+}
+.item-7 img:hover{
+    display: block;
+   
+    transform:scale(1.1);
+    
+}
+.item-8{
+    width:200px;
+    height:200px;
+}
+.item-8 img{
+    display: block;
+    width:200px;
+    height:200px;
+    transition:all 1s ease-in-out 0s;
+}
+.item-8 img:hover{
+    display: block;
+    transform:scale(1.1);
+    
+}
+/* footer */
+footer{
+    margin-top: 100px;
+    padding:6px 6px;
+    text-align: center;
+    background-color: rgb(27, 27, 27);
+    color:white;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    transition:all 1s ease-in-out 0s;
+}
+footer:hover{
+    margin-top: 110px;
+    padding:8px 8px;
+    text-align: center;
+    background-color: rgb(27, 27, 27);
+    color:cyan;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+}
